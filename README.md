@@ -14,4 +14,4 @@ The script will check every 3 seconds for changes on the Sensodyne website and s
 1. `cd SensodyneWatchtower`
 1. Edit `.env` file with your Pushover User Key and API Token
 1. `pip install -r requirements.txt`
-1. `python3 watchtower.py`
+1. `python3 main.py`

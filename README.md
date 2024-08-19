@@ -8,7 +8,7 @@ The script will check every 3 seconds for changes on the Sensodyne website and s
 
 ## Usage
 
-1. Create [Pushover](https://pushover.net/) account, note down _User Key_ and _API Token_
+1. Create [Pushover](https://pushover.net/) account, note down _User Key_ and _API Token_ (A trash email can be used for a free trial)
 1. Install Pushover app on your phone
 1. `git clone https://github.com/SamuelBorn/SensodyneWatchtower.git`
 1. `cd SensodyneWatchtower`

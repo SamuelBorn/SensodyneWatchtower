@@ -2,7 +2,6 @@ import os
 import time
 from datetime import datetime
 
-# install requirements with `pip install python-dotenv requests bs4`
 import dotenv
 import requests
 from bs4 import BeautifulSoup

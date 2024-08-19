@@ -7,8 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Download the Pushover app from the App Store or Google Play Store
-# Pushover API keys
-# Load environment variables from .env file
+# Load Pushover API keys from .env file
 dotenv.load_dotenv()
 PUSHOVER_TOKEN = os.getenv("PUSHOVER_TOKEN")
 PUSHOVER_USER_KEY = os.getenv("PUSHOVER_USER_KEY")

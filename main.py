@@ -17,7 +17,7 @@ url = "https://www.erlebe-haleon.de/deals/sensodyne-clinical-repair"
 div_id = "restZahlAnzeige"
 
 
-def get_content(url):
+def get_content():
     response = requests.get(url)
     if response.status_code != 200:
         return None
@@ -31,11 +31,10 @@ def send_notification(message):
 
 
 def monitor_website():
-    inital_content = get_content(url)
-    send_notification("The webpage content has changed!")
+    inital_content = get_content()
 
     while True:
-        current_content = get_content(url)
+        current_content = get_content()
 
         if current_content and current_content != inital_content:
             send_notification("The webpage content has changed!")
